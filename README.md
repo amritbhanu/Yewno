@@ -2,9 +2,11 @@
 ### Current method is with Doc2vec
 - Rerun src.py to see results on console.
 - I have considered 3 input strings ['chippewa escobar','trondheim trondheim bergen','notabl sign ninth argentina fire rock']
+- A sample dataset was generated and can be seen [here](https://github.com/amritbhanu/Yewno/blob/master/dataset/file).
 - if any of the words is not in the original document, then it will raise an exception
 - The code is implemented in Python and libraries like gensim, nltk, numpy and scipy are needed to run the code.
 - Wrote preprocessing functions which can be of used for text mining.
+- The output can be read [here](output.md).
 
 ### Q1. Is your system scalable?
 - The training model which is using Gensim is already scalable. We will just need multiple machines to distribute the training workload.
